@@ -26,7 +26,7 @@ print('Dimensions of test data:', test.shape)
 # Dimensions of test data: (1459, 80)
 
 train.columns.values
-# array(['Id', 'MSSubClass', 'MSZoning', 'LotFrontage', 'LotArea', 'Street',
+# arr1(['Id', 'MSSubClass', 'MSZoning', 'LotFrontage', 'LotArea', 'Street',
 #        'Alley', 'LotShape', 'LandContour', 'Utilities', 'LotConfig',
 #        'LandSlope', 'Neighborhood', 'Condition1', 'Condition2',
 #        'BldgType', 'HouseStyle', 'OverallQual', 'OverallCond',
@@ -48,7 +48,7 @@ train.columns.values
 
 test.columns.values
 
-# array(['Id', 'MSSubClass', 'MSZoning', 'LotFrontage', 'LotArea', 'Street',
+# arr2(['Id', 'MSSubClass', 'MSZoning', 'LotFrontage', 'LotArea', 'Street',
 #        'Alley', 'LotShape', 'LandContour', 'Utilities', 'LotConfig',
 #        'LandSlope', 'Neighborhood', 'Condition1', 'Condition2',
 #        'BldgType', 'HouseStyle', 'OverallQual', 'OverallCond',
